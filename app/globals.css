@@ -1,0 +1,203 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Sophisticated Fintech Palette: Deep Slate, Steel Blue, Emerald Green, and Warm Neutrals */
+    --background: 210 20% 98%;
+    --foreground: 222 47% 11%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+    --primary: 221 83% 53%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222 47% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 162 72% 45%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 162 72% 45%;
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 222 47% 6%;
+    --foreground: 210 40% 98%;
+    --card: 222 47% 8%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222 47% 6%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 217.2 91.2% 59.8%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 162 72% 55%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 162 72% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  /* Using Inter font for entire site - same as One Constellation */
+  body {
+    @apply bg-background text-foreground selection:bg-primary/20;
+    font-family: var(--font-inter);
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  h1 {
+    /* Headings now use Inter instead of Playfair */
+    font-family: var(--font-inter);
+    @apply font-bold tracking-tight text-balance text-5xl;
+  }
+  h2 {
+    font-family: var(--font-inter);
+    @apply font-bold tracking-tight text-balance text-4xl;
+  }
+  h3 {
+    font-family: var(--font-inter);
+    @apply font-bold tracking-tight text-balance text-2xl;
+  }
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-inter);
+    @apply font-bold tracking-tight text-balance text-xl;
+  }
+  p {
+    font-family: var(--font-inter);
+    @apply text-base leading-relaxed;
+  }
+  a {
+    font-family: var(--font-inter);
+  }
+}
+
+.glass-morphism {
+  @apply bg-background/60 backdrop-blur-md border border-white/10;
+}
+
+.fintech-gradient {
+  background: radial-gradient(circle at top left, hsla(221, 83%, 53%, 0.1), transparent),
+    radial-gradient(circle at bottom right, hsla(162, 72%, 45%, 0.05), transparent);
+}
+
+/* Added animation keyframes for enhanced visual effects */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    box-shadow: 0 0 20px hsla(162, 72%, 45%, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 30px hsla(162, 72%, 45%, 0.6);
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+/* Added submenu dropdown animations */
+@keyframes slideDownSubmenu {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUpSubmenu {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.6s ease-out;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-shimmer {
+  background-size: 1000px 100%;
+  animation: shimmer 2s infinite;
+}
+
+.animate-slide-down-submenu {
+  animation: slideDownSubmenu 0.3s ease-out;
+}
+
+.animate-slide-up-submenu {
+  animation: slideUpSubmenu 0.3s ease-out;
+}
