@@ -208,9 +208,9 @@ export default function KYCPage() {
               initial={{ opacity: 0, x: 40 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, ease: "easeOut" }}
-              className="relative flex justify-center items-center h-[520px]"
+              className="relative flex justify-center items-center h-[520px] px-4 sm:px-6 lg:px-0 w-full overflow-hidden"
             >
-              <div ref={containerRef} className="relative flex gap-6">
+              <div ref={containerRef} className="relative flex gap-3 sm:gap-4 md:gap-6">
                 {Array.from({ length: pills }).map((_, i) => {
                   const pillH = i % 2 === 0 ? 520 : 420
                   const xOffset = i * (metrics.pillW + metrics.gap)
@@ -221,7 +221,7 @@ export default function KYCPage() {
                       data-pill
                       animate={{ y: [0, -12, 0] }}
                       transition={{ duration: 6 + i, repeat: Infinity, ease: "easeInOut" }}
-                      className="relative w-28 md:w-36 rounded-[80px] overflow-hidden shadow-2xl bg-slate-800"
+                      className="relative w-20 sm:w-24 md:w-28 lg:w-36 rounded-[80px] overflow-hidden shadow-2xl  "
                       style={{ height: `${pillH}px` }}
                     >
                       {/* ✅ Perfect continuous panorama */}
