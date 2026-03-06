@@ -144,7 +144,7 @@ export default function SustainabilityPage() {
             <div className="bg-white border border-slate-200 rounded-lg p-6">
               <motion.h3
                 variants={fadeInUp}
-                className="text-lg font-semibold text-teal-500 mb-4"
+                className="text-lg font-semibold text-blue-600 mb-4"
               >
                 Introduction
               </motion.h3>
@@ -203,7 +203,7 @@ export default function SustainabilityPage() {
                   variants={staggerContainer}
                   className="space-y-8"
                 >
-                  <motion.div variants={fadeInUp} className="text-teal-500 font-semibold text-sm tracking-wide">
+                  <motion.div variants={fadeInUp} className="text-blue-600 font-semibold text-sm tracking-wide">
                     INTRODUCTION
                   </motion.div>
                   <motion.h1
@@ -235,7 +235,7 @@ export default function SustainabilityPage() {
                     </p>
                     <motion.button
                       variants={fadeInUp}
-                      className="text-teal-500 hover:text-teal-600 font-semibold flex items-center gap-2 pt-2"
+                      className="text-blue-600 hover:text-blue-700 font-semibold flex items-center gap-2 pt-2"
                     >
                       Read more <ArrowRight className="w-4 h-4" />
                     </motion.button>
@@ -288,7 +288,7 @@ export default function SustainabilityPage() {
                     </p>
                     <Link
                       href={resource.link}
-                      className="text-teal-500 hover:text-teal-600 font-semibold flex items-center gap-2 text-sm"
+                      className="text-blue-600 hover:text-blue-700 font-semibold flex items-center gap-2 text-sm"
                     >
                       {resource.isDownload ? "Download Now" : "Read More"}
                       <ArrowRight className="w-4 h-4" />
@@ -325,7 +325,7 @@ export default function SustainabilityPage() {
                     </p>
                     <Link
                       href="#"
-                      className="inline-flex items-center gap-2 px-6 py-3 bg-teal-500 hover:bg-teal-600 text-white rounded-full font-semibold transition-colors"
+                      className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-full font-semibold transition-colors"
                     >
                       <ArrowRight className="w-4 h-4" />
                       Download the Report
@@ -373,7 +373,7 @@ export default function SustainabilityPage() {
                 <motion.div variants={fadeInUp}>
                   <Link
                     href="/esg-policy"
-                    className="text-teal-500 hover:text-teal-600 font-semibold inline-flex items-center gap-1"
+                    className="text-blue-600 hover:text-blue-700 font-semibold inline-flex items-center gap-1"
                   >
                     Learn more <ArrowRight className="w-4 h-4" />
                   </Link>
