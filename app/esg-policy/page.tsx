@@ -167,7 +167,7 @@ export default function ESGPolicyPage() {
 
               <motion.button
                 variants={fadeInUp}
-                className="inline-flex items-center gap-2 px-6 py-3 bg-teal-500 hover:bg-teal-600 text-white rounded-full font-semibold transition-colors"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-full font-semibold transition-colors"
               >
                 <ArrowRight className="w-5 h-5" />
                 Download One Constellation's ESG Policy
@@ -210,7 +210,7 @@ export default function ESGPolicyPage() {
                   )
                 })}
               </div>
-              <div className="absolute inset-0 -z-10 bg-gradient-to-tr from-cyan-400/20 via-transparent to-teal-400/20 blur-[140px]" />
+              <div className="absolute inset-0 -z-10 bg-gradient-to-tr from-blue-400/20 via-transparent to-blue-500/20 blur-[140px]" />
             </motion.div>
           </div>
         </div>
@@ -251,7 +251,7 @@ export default function ESGPolicyPage() {
                   className="w-full px-6 py-4 flex items-center justify-between hover:bg-slate-50 transition-colors"
                 >
                   <div className="flex items-center gap-4">
-                    <div className="flex items-center justify-center w-10 h-10 rounded-full bg-teal-500 text-white font-semibold text-sm">
+                    <div className="flex items-center justify-center w-10 h-10 rounded-full bg-blue-600 text-white font-semibold text-sm">
                       {expandedSection === section.id ? "−" : "+"}
                     </div>
                     <h3 className="text-lg font-semibold text-slate-900">
@@ -306,7 +306,7 @@ export default function ESGPolicyPage() {
             </motion.p>
             <motion.button
               variants={fadeInUp}
-              className="inline-flex items-center gap-2 px-8 py-3 bg-teal-500 hover:bg-teal-600 text-white rounded-full font-semibold transition-colors"
+              className="inline-flex items-center gap-2 px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-full font-semibold transition-colors"
             >
               <ArrowRight className="w-5 h-5" />
               Download Policy Document
