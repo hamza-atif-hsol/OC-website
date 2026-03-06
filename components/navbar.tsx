@@ -936,13 +936,13 @@ export function Navbar() {
         </div>
       </div>
       {/* ✅ LANGUAGE (mobile) */}
-<div className="border-t border-slate-800 mt-2 pt-4 p-4">
+{/* <div className="border-t border-slate-800 mt-2 pt-4 p-4">
   <div className="relative">
     <button
       onClick={() => setLanguageDropdownOpen(!languageDropdownOpen)}
       className="flex items-center gap-2 px-4 py-2 text-gray-300 hover:text-white transition-colors text-sm font-medium"
     >
-      <span>{language}</span>
+      <span className="hidden sm:inline">{language}</span>
       <ChevronDown className={cn("w-4 h-4 transition-transform", languageDropdownOpen ? "rotate-180" : "")} />
     </button>
 
@@ -977,7 +977,7 @@ export function Navbar() {
       )}
     </AnimatePresence>
   </div>
-</div>
+</div> */}
 
     </motion.div>
   )}
