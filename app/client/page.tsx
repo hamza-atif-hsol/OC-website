@@ -165,21 +165,21 @@ export default function ClientPage() {
 
               <ul className="space-y-4 mb-8">
                 <li className="flex items-start gap-3">
-                  <span className="text-cyan-500 font-bold mt-1">•</span>
+                  <span className="text-blue-600 font-bold mt-1">•</span>
                   <span className="text-gray-700">Supporting financial institutions across all regions and business verticals</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-cyan-500 font-bold mt-1">•</span>
+                  <span className="text-blue-600 font-bold mt-1">•</span>
                   <span className="text-gray-700">Continuous innovation with proven, industry-validated solutions</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-cyan-500 font-bold mt-1">•</span>
+                  <span className="text-blue-600 font-bold mt-1">•</span>
                   <span className="text-gray-700">Community-driven approach to future-proof against evolving regulations</span>
                 </li>
               </ul>
 
               <div className="flex items-center gap-4">
-                <button className="flex items-center gap-2 px-6 py-3 bg-teal-600 hover:bg-teal-700 text-white rounded-full font-semibold transition-colors">
+                <button className="flex items-center gap-2 px-6 py-3 bg-blue-700 hover:bg-blue-800 text-white rounded-full font-semibold transition-colors">
                   <ArrowRight size={20} />
                   Discover Solutions
                 </button>
@@ -222,7 +222,7 @@ export default function ClientPage() {
                   )
                 })}
               </div>
-              <div className="absolute inset-0 -z-10 bg-gradient-to-tr from-cyan-400/20 via-transparent to-teal-400/20 blur-[140px]" />
+              <div className="absolute inset-0 -z-10 bg-gradient-to-tr from-blue-400/20 via-transparent to-blue-500/20 blur-[140px]" />
             </motion.div>
           </motion.div>
         </div>
@@ -260,7 +260,7 @@ export default function ClientPage() {
             className="bg-gradient-to-r from-slate-900 to-slate-800 rounded-3xl overflow-hidden grid grid-cols-1 lg:grid-cols-2 gap-8 p-8 lg:p-12"
           >
             <div className="text-white">
-              <span className="text-teal-400 text-sm font-semibold">Proven Implementation Success</span>
+              <span className="text-blue-500 text-sm font-semibold">Proven Implementation Success</span>
               <h3 className="text-3xl lg:text-4xl font-bold mt-2 mb-6">Transforming Global Finance Operations</h3>
               <p className="text-gray-300 mb-6">Leading financial institutions globally choose One Constellation to modernize their operations and accelerate digital transformation.</p>
               <p className="text-gray-400 leading-relaxed mb-6">
@@ -269,11 +269,11 @@ export default function ClientPage() {
               <p className="text-gray-400 leading-relaxed mb-8">
                 From onboarding to ongoing operations, our platform provides the tools and insights your organization needs to thrive in an increasingly complex regulatory environment.
               </p>
-              <a href="#" className="text-teal-400 hover:text-teal-300 font-semibold underline">
+              <a href="#" className="text-blue-500 hover:text-blue-400 font-semibold underline">
                 Explore our solutions →
               </a>
             </div>
-            <div className="relative h-80 lg:h-auto rounded-2xl overflow-hidden bg-gradient-to-br from-cyan-400 to-blue-600">
+            <div className="relative h-80 lg:h-auto rounded-2xl overflow-hidden bg-gradient-to-br from-blue-400 to-blue-700">
               <img 
                 src="/client-3.jpg"
                 alt="Transforming Global Finance Operations"
@@ -386,7 +386,7 @@ export default function ClientPage() {
       </section>
 
       {/* CTA Section - More Client Stories */}
-      <section className="relative bg-teal-500 py-24 overflow-hidden">
+      <section className="relative bg-blue-600 py-24 overflow-hidden">
         {/* Left decorative circle */}
         <div className="absolute left-0 top-1/2 -translate-y-1/2 w-96 h-96 rounded-full border-4 border-white/30 -ml-48" />
         
@@ -409,8 +409,8 @@ export default function ClientPage() {
               </p>
               <Link href="/case-studies">
                 <button className="flex items-center gap-3 px-6 py-3 bg-slate-900 hover:bg-slate-800 text-white rounded-full font-semibold transition-all border-2 border-slate-900">
-                  <ArrowRight size={20} className="text-teal-400" />
-                  <span className="text-teal-400">Read More Client Stories</span>
+                  <ArrowRight size={20} className="text-blue-500" />
+                  <span className="text-blue-500">Read More Client Stories</span>
                 </button>
               </Link>
             </div>
