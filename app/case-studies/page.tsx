@@ -166,7 +166,7 @@ export default function CaseStudiesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="relative bg-teal-500 py-24 overflow-hidden">
+      <section className="relative bg-blue-600 py-24 overflow-hidden">
         {/* Left decorative circle */}
         <div className="absolute left-0 top-1/2 -translate-y-1/2 w-96 h-96 rounded-full border-4 border-white/30 -ml-48" />
         
@@ -189,7 +189,7 @@ export default function CaseStudiesPage() {
               </p>
               <Link href="/book-demo">
                 <button className="flex items-center gap-3 px-6 py-3 bg-slate-900 hover:bg-slate-800 text-white rounded-full font-semibold transition-all border-2 border-slate-900">
-                  <span className="text-teal-400">Get Started Today</span>
+                  <span className="text-blue-500">Get Started Today</span>
                 </button>
               </Link>
             </div>
