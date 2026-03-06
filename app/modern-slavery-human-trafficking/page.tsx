@@ -136,7 +136,7 @@ export default function ModernSlaveryPage() {
                   )
                 })}
               </div>
-              <div className="absolute inset-0 -z-10 bg-gradient-to-tr from-cyan-400/20 via-transparent to-teal-400/20 blur-[140px]" />
+              <div className="absolute inset-0 -z-10 bg-gradient-to-tr from-blue-400/20 via-transparent to-blue-500/20 blur-[140px]" />
             </motion.div>
           </div>
         </motion.div>
@@ -202,8 +202,8 @@ export default function ModernSlaveryPage() {
                   className="w-full px-8 py-5 flex items-center justify-between hover:bg-gray-50 transition-colors"
                 >
                   <div className="flex items-center gap-4">
-                    <div className="flex-shrink-0 w-10 h-10 bg-teal-100 rounded-full flex items-center justify-center">
-                      <div className="text-teal-600 font-bold text-xl">
+                    <div className="flex-shrink-0 w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
+                      <div className="text-blue-600 font-bold text-xl">
                         {expandedItem === item.id ? "−" : "+"}
                       </div>
                     </div>
@@ -232,7 +232,7 @@ export default function ModernSlaveryPage() {
       </section>
 
       {/* Contact CTA Section */}
-      <section className="relative bg-teal-500 py-24 overflow-hidden">
+      <section className="relative bg-blue-600 py-24 overflow-hidden">
         {/* Left decorative circle */}
         <div className="absolute left-0 top-1/2 -translate-y-1/2 w-96 h-96 rounded-full border-4 border-white/30 -ml-48" />
 
@@ -255,8 +255,8 @@ export default function ModernSlaveryPage() {
               </p>
               <Link href="/contact">
                 <button className="flex items-center gap-3 px-6 py-3 bg-slate-900 hover:bg-slate-800 text-white rounded-full font-semibold transition-all border-2 border-slate-900">
-                  <ArrowRight size={20} className="text-teal-400" />
-                  <span className="text-teal-400">Contact us</span>
+                  <ArrowRight size={20} className="text-blue-500" />
+                  <span className="text-blue-500">Contact us</span>
                 </button>
               </Link>
             </div>
