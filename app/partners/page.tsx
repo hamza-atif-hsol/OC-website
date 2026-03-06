@@ -256,11 +256,11 @@ export default function PartnersPage() {
                 variants={fadeInUp}
                 className="flex flex-wrap gap-4 pt-4"
               >
-                <button className="bg-teal-400 hover:bg-teal-500 text-slate-900 font-semibold px-6 py-3 rounded-full flex items-center gap-2 transition-colors">
+                <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold px-6 py-3 rounded-full flex items-center gap-2 transition-colors">
                   <ArrowRight className="w-5 h-5" />
                   Work with a Partner
                 </button>
-                <button className="bg-teal-400 hover:bg-teal-500 text-slate-900 font-semibold px-6 py-3 rounded-full flex items-center gap-2 transition-colors">
+                <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold px-6 py-3 rounded-full flex items-center gap-2 transition-colors">
                   <ArrowRight className="w-5 h-5" />
                   Join our Partner Program
                 </button>
@@ -286,7 +286,7 @@ export default function PartnersPage() {
                       <p className="font-semibold">One Constellation Partner</p>
                       <p className="text-sm opacity-75">Ecosystem Video</p>
                     </div>
-                    <button className="bg-teal-400 hover:bg-teal-500 text-slate-900 font-semibold px-8 py-3 rounded-full">
+                    <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold px-8 py-3 rounded-full">
                       ► Play Video
                     </button>
                   </div>
@@ -399,7 +399,7 @@ export default function PartnersPage() {
               </motion.p>
               <motion.blockquote 
                 variants={fadeInUp}
-                className="border-l-4 border-teal-400 pl-6 py-4 italic text-slate-700"
+                className="border-l-4 border-blue-500 pl-6 py-4 italic text-slate-700"
               >
                 "Transforming organisations by using AI is something we're committed to in Deloitte. Our collaboration with One Constellation and the launch of our Centre of Excellence illustrates our focus on providing innovative technology solutions to our clients that drive competitiveness and efficiency."
                 <p className="mt-4 font-semibold text-slate-900 not-italic">Graham Healy</p>
@@ -407,7 +407,7 @@ export default function PartnersPage() {
               </motion.blockquote>
               <motion.button 
                 variants={fadeInUp}
-                className="bg-teal-400 hover:bg-teal-500 text-slate-900 font-semibold px-6 py-3 rounded-full flex items-center gap-2 transition-colors w-fit"
+                className="bg-blue-500 hover:bg-blue-600 text-white font-semibold px-6 py-3 rounded-full flex items-center gap-2 transition-colors w-fit"
               >
                 <ArrowRight className="w-5 h-5" />
                 Join the One Constellation Partner Program
@@ -428,7 +428,7 @@ export default function PartnersPage() {
                   className="flex gap-6"
                 >
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center h-12 w-12 rounded-full bg-teal-400 text-slate-900 font-bold text-lg">
+                    <div className="flex items-center justify-center h-12 w-12 rounded-full bg-blue-500 text-white font-bold text-lg">
                       {benefit.number}
                     </div>
                   </div>
@@ -483,7 +483,7 @@ export default function PartnersPage() {
                 <h3 className="text-xl font-bold text-slate-900 mb-2">
                   {type.title}
                 </h3>
-                <p className="text-teal-400 font-semibold mb-3">
+                <p className="text-blue-500 font-semibold mb-3">
                   {type.subtitle}
                 </p>
                 <p className="text-slate-600">
