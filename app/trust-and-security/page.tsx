@@ -104,7 +104,7 @@ export default function TrustAndSecurityPage() {
               </div>
 
               <Link href="/privacy-updates">
-                <button className="flex items-center gap-3 px-6 py-3 bg-teal-500 hover:bg-teal-600 text-white rounded-full font-semibold transition-all">
+                <button className="flex items-center gap-3 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-full font-semibold transition-all">
                   <ArrowRight size={20} />
                   Read Our Statement on the Drift Data Breach
                 </button>
@@ -147,7 +147,7 @@ export default function TrustAndSecurityPage() {
                   )
                 })}
               </div>
-              <div className="absolute inset-0 -z-10 bg-gradient-to-tr from-cyan-400/20 via-transparent to-teal-400/20 blur-[140px]" />
+              <div className="absolute inset-0 -z-10 bg-gradient-to-tr from-blue-400/20 via-transparent to-blue-500/20 blur-[140px]" />
             </motion.div>
           </div>
         </motion.div>
@@ -257,7 +257,7 @@ export default function TrustAndSecurityPage() {
               </div>
 
               {/* AICPA SOC */}
-              <div className="w-48 h-48 rounded-full bg-gradient-to-br from-cyan-400 to-blue-600 flex items-center justify-center shadow-xl">
+              <div className="w-48 h-48 rounded-full bg-gradient-to-br from-blue-400 to-blue-700 flex items-center justify-center shadow-xl">
                 <div className="text-center text-white">
                   <div className="text-2xl font-bold mb-1">AICPA</div>
                   <div className="text-xl font-semibold">SOC</div>
@@ -297,7 +297,7 @@ export default function TrustAndSecurityPage() {
               ].map((item) => (
                 <div key={item.number} className="flex gap-6">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center w-12 h-12 rounded-full bg-teal-500 text-white font-bold text-lg">
+                    <div className="flex items-center justify-center w-12 h-12 rounded-full bg-blue-600 text-white font-bold text-lg">
                       {item.number}
                     </div>
                   </div>
@@ -313,7 +313,7 @@ export default function TrustAndSecurityPage() {
       </section>
 
       {/* More Information CTA Section */}
-      <section className="relative bg-teal-500 py-24 overflow-hidden">
+      <section className="relative bg-blue-600 py-24 overflow-hidden">
         {/* Left decorative circle */}
         <div className="absolute left-0 top-1/2 -translate-y-1/2 w-96 h-96 rounded-full border-4 border-white/30 -ml-48" />
 
@@ -336,8 +336,8 @@ export default function TrustAndSecurityPage() {
               </p>
               <Link href="/contact">
                 <button className="flex items-center gap-3 px-6 py-3 bg-slate-900 hover:bg-slate-800 text-white rounded-full font-semibold transition-all border-2 border-slate-900">
-                  <ArrowRight size={20} className="text-teal-400" />
-                  <span className="text-teal-400">Contact us</span>
+                  <ArrowRight size={20} className="text-blue-500" />
+                  <span className="text-blue-500">Contact us</span>
                 </button>
               </Link>
             </div>
