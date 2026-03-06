@@ -113,17 +113,17 @@ export default function EventsPage() {
                   {/* Event Content */}
                   <div className="p-6 space-y-4">
                     {/* Category Badge */}
-                    <span className="inline-block text-xs font-semibold text-teal-700 bg-teal-100 px-3 py-1 rounded-full">
+                    <span className="inline-block text-xs font-semibold text-blue-700 bg-blue-100 px-3 py-1 rounded-full">
                       {event.category}
                     </span>
 
                     {/* Title */}
-                    <h3 className="text-lg font-semibold text-slate-900 group-hover:text-teal-600 transition-colors line-clamp-3">
+                    <h3 className="text-lg font-semibold text-slate-900 group-hover:text-blue-600 transition-colors line-clamp-3">
                       {event.title}
                     </h3>
 
                     {/* Date Range Banner */}
-                    <div className="bg-gradient-to-r from-teal-400 to-teal-500 rounded-lg p-4 text-white space-y-2">
+                    <div className="bg-gradient-to-r from-blue-400 to-blue-500 rounded-lg p-4 text-white space-y-2">
                       <div className="flex items-start gap-3">
                         <Calendar className="w-5 h-5 flex-shrink-0 mt-0.5" />
                         <div className="text-sm space-y-1">
@@ -136,7 +136,7 @@ export default function EventsPage() {
                     </div>
 
                     {/* CTA */}
-                    <button className="w-full text-center text-teal-600 hover:text-teal-700 transition-colors text-sm font-medium py-2">
+                    <button className="w-full text-center text-blue-600 hover:text-blue-700 transition-colors text-sm font-medium py-2">
                       View this event
                     </button>
                   </div>
